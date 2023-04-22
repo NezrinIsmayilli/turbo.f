@@ -1,0 +1,62 @@
+.carboxs{
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    .carbox{
+        box-shadow: 0 17px 34px 0 rgba(44,39,56,0.04), 0 8px 17px 0 rgba(44,39,56,0.02);
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        position: relative;
+        .link{
+            text-decoration: none;
+        }
+        .extra{
+            position: absolute;
+            top: 0;
+            right: 10px;
+            p{
+                color: white;
+                font-size: 30px;
+            }
+        }
+        .top{
+            img{
+                width: 100%;
+                border-radius: 10px 10px 0px 0px;
+            }
+            .img{
+                border-radius: 10px 10px 0px 0px;
+                height: 170px;
+            }
+        }
+        .text{
+            padding: 8px;
+            p{
+                margin: 5px;
+            }
+            .price{
+                font-size: 18px;
+                font-weight: bold;
+                text-overflow: ellipsis;
+                color: #212c3a;
+                line-height: 17px;
+            }
+            .name, .attributes{
+                font-size: 16px;
+                font-weight: 400;
+                white-space: nowrap;
+                color: #212c3a;
+                line-height: 17px;
+            }
+            .datetime{
+                line-height: 17px;
+                color: #8d94ad;
+                font-size: 14px;
+            }
+        }
+    }
+}

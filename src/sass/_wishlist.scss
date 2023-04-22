@@ -1,0 +1,37 @@
+.wishlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .wish{
+        width: 80%;
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            border-top: 1px solid #eaebf2;
+            border-bottom: 1px solid #eaebf2;
+        h1{
+            font-size: 16px;
+            color: #212c3a;
+            font-weight: 700;
+        }
+        }
+    }
+    .row{
+        margin-top: 40px;
+    }
+    .back{
+        margin-top: 30px;
+        width: 100%;
+        height: 300px;
+        background-image: url(//turbo.azstatic.com/assets/shared/bookmarks/bookmarks-bg-da37770522e510318ac5c34e9532f2c28225f6e90d3a5736176dadd131f973db.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    h1{
+        text-align: center;
+        font-size: 18px;
+        color: #000;
+    }
+}
